@@ -5,7 +5,7 @@
  * @tree: Pointer to the root node of the tree to traverse
  * @func: Pointer to a function to call for each node
  *
- * Description: first visit left subtree then the current then the 
+ * Description: first visit left subtree then the current then the
  * right subtree
  * Return: If tree or func is NULL, do nothing
  */
