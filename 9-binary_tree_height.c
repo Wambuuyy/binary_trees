@@ -3,7 +3,8 @@
 /**
  * binary_tree_height - gets the height of a binary tree
  * @tree: root node to draw height from for tree
- *
+ * Description: height is the maximum number of edges on the
+ * longest path from the root node to thr leaf node
  * Return: size_t representing height, 0 on failure or NULL
  */
 size_t binary_tree_height(const binary_tree_t *tree)

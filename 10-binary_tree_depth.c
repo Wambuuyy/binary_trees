@@ -3,7 +3,8 @@
 /**
  * binary_tree_depth - gets the depth of a node in abinary tree
  * @tree: root node to draw height from for tree
- *
+ * Description: depth is thre number of edges on the path from
+ * the root node to the leafnode. or the level of the node in the tree
  * Return: size_t representing height, 0 on failure or NULL
  */
 size_t binary_tree_depth(const binary_tree_t *tree)
