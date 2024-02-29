@@ -1,10 +1,16 @@
 #include "binary_trees.h"
+/** You need to calculate the height of the left and the right subtree
+ * then subtract the height of the right subtree from that of left
+ * balance factor is measure of how well balanced the tree is at the node
+ */
 
 /**
  * binary_tree_balance - A function that measures the balance factor of a
  * binary tree.
  * @tree: Pointer to root node to calculate balance factor.
  * Return: The balance factor of the tree.
+ * 0 if the heights are equal
+ * -1 or 1 if they are slightly imbalance
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
