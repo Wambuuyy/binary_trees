@@ -1,5 +1,6 @@
 #include "binary_trees.h"
-/** You need to calculate the height of the left and the right subtree
+/**
+ * You need to calculate the height of the left and the right subtree
  * then subtract the height of the right subtree from that of left
  * balance factor is measure of how well balanced the tree is at the node
  */
